@@ -26,7 +26,7 @@ All the data needed for plotting is gathered here `/gpfs/space/projects/eQTLCata
 I copied an example for convenience here `./data/`
 
 
-1. Run the script with tar-file as input
+4. Run the script with tar-file as input
 ```bash
 singularity exec singularity_img/leafcutter_plot.img \
     Rscript bin/plot_from_data.R \
